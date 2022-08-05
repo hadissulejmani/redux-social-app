@@ -21,7 +21,7 @@ p {
 }
 
 /* Navbar */
-
+/*
 nav {
   display: flex;
   padding: 0;
@@ -73,7 +73,7 @@ nav a:hover {
   position: relative;
   top: -3px;
 }
-
+*/
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -88,6 +88,7 @@ nav a:hover {
   background-color: #f8f9fa;
 }
 
+/*
 .navLinks :first-child {
   margin-left: 0;
 }
@@ -118,7 +119,7 @@ section h1 {
   border-radius: 7px;
 }
 
-.posts-list .post-excerpt + .post-excerpt {
+.posts-list .post-excerpt+.post-excerpt {
   margin-top: 0.5rem;
 }
 
@@ -177,31 +178,21 @@ button.reaction-button {
   height: 5em;
   border-radius: 50%;
   background: var(--redux-color);
-  background: -moz-linear-gradient(
-    left,
-    var(--redux-color) 10%,
-    rgba(128, 0, 255, 0) 42%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    var(--redux-color) 10%,
-    rgba(128, 0, 255, 0) 42%
-  );
-  background: -o-linear-gradient(
-    left,
-    var(--redux-color) 10%,
-    rgba(128, 0, 255, 0) 42%
-  );
-  background: -ms-linear-gradient(
-    left,
-    var(--redux-color) 10%,
-    rgba(128, 0, 255, 0) 42%
-  );
-  background: linear-gradient(
-    to right,
-    var(--redux-color) 10%,
-    rgba(128, 0, 255, 0) 42%
-  );
+  background: -moz-linear-gradient(left,
+      var(--redux-color) 10%,
+      rgba(128, 0, 255, 0) 42%);
+  background: -webkit-linear-gradient(left,
+      var(--redux-color) 10%,
+      rgba(128, 0, 255, 0) 42%);
+  background: -o-linear-gradient(left,
+      var(--redux-color) 10%,
+      rgba(128, 0, 255, 0) 42%);
+  background: -ms-linear-gradient(left,
+      var(--redux-color) 10%,
+      rgba(128, 0, 255, 0) 42%);
+  background: linear-gradient(to right,
+      var(--redux-color) 10%,
+      rgba(128, 0, 255, 0) 42%);
   position: relative;
   -webkit-animation: load3 1.4s infinite linear;
   animation: load3 1.4s infinite linear;
@@ -240,6 +231,7 @@ button.reaction-button {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -251,6 +243,7 @@ button.reaction-button {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -264,7 +257,7 @@ button.reaction-button {
   padding: 0.5rem;
 }
 
-.notificationsList .notification + .notification {
+.notificationsList .notification+.notification {
   border-top: none;
 }
 

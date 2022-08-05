@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { PostsList } from './features/posts/PostsList'
-import { Navbar } from './app/Navbar'
+import Navbar from './app/navbar/Navbar'
 import { AddPostForm } from './features/posts/AddPostForm'
 
 function App() {
