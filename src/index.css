@@ -121,6 +121,7 @@ section h1 {
 
 .posts-list .post-excerpt+.post-excerpt {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .posts-container.disabled {
